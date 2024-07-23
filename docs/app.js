@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
 document.getElementById('bt').addEventListener('click', function() {
     // Replace 'path/to/your/file.pdf' with the actual path to your PDF file
-    var pdfPath = 'https://drive.google.com/file/d/16oe6YSYlxNybIFZ-5Sd_xe-ZCRzR2hRp/view?usp=sharing';
+    var pdfPath = 'https://drive.google.com/file/d/1gVkKnGylV9dSuzRzNQN8j6S35oBS_acD/view?usp=sharing';
 
     // Create a link element
     var link = document.createElement('a');
