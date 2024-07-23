@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header class="head">
+        <a href='#home'id="logo">Port<span style="color: cyan;">folio</span></a>
+
+        <nav >
+            <a class="nb"href="#home">Home</a>
+            <a class="nb"href="#about">About</a>
+            <a class="nb"href="#skill">Skill</a>
+            <a class="nb"href="#project">Project</a>
+            <a class="nb"href="#contact">Contact</a>
+            <span id="imag"><img width="20" height="20" src="https://img.icons8.com/ios-filled/50/FFFFFF/menu--v6.png" alt="menu--v6" onclick="sidebar()"/></span>
+        </nav>
+
+        <nav class="sidebar">
+            <img id="imgg"width="24" height="24" src="https://img.icons8.com/material-rounded/24/FFFFFF/multiply--v1.png" alt="multiply--v1" onclick="closing()"/>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skill</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <section class="intro" id="home">
+        <div class="detail">
+            <h2>Hello,It's Me</h2>
+            <h1>Sayan Karan</h1>
+            <h2>And I'm a <span class="text" style="color: cyan;"></span></h2>
+            <br>
+            <p>Passionate frontend web developer crafting seamless <br>digital experiences with expertise in frontend technologies,<br> delivering innovation and user satisfaction.</p>
+            <button id="bt">Download Resume</button>
+        </div>
+        <div class="img">
+            <img src="p.png" alt="shape" class="shape">
+            <img src="my.png" alt="man" class="man">
+        </div>
+    </section>
+    <hr class="thin-hr">
+    <section class="about" id="about">
+        <div class="img1">
+            <img src="me.jpg" alt="man" class="man1">
+        </div>
+        <div class="details">
+            <h2>I am Frontend <span style="color: cyan;">Developer </span> <br>& Photographer</h2>
+            <br>
+            <p style="line-height: 2;">
+                <b>Experience: </b><span style="color: rgba(255, 255, 255, 0.768);font-weight: 100;">6 Months</span> <br>
+                <b>Speciality: </b><span style="color: rgba(255, 255, 255, 0.768);font-weight: 100;">Frontend Developer,Photographer</span><br>
+                <b>Address: </b><span style="color: rgba(255, 255, 255, 0.768);font-weight: 100;">West Bengal,India </span><br>
+                <b>Email: </b><span style="color: rgba(255, 255, 255, 0.768);font-weight: 100;">sayankaran10@gmail.com </span><br>
+             </p>
+            
+        </div>
+      
+    </section>
+   <hr class="thin-hr">
+    <section class="skill" id="skill">
+        
+        <div class="skills">
+            <h1>My <span style="color: cyan;">Skills</span></h1>
+        </div>
+        <div class="progress-container1">
+
+      
+        
+        <div class="progress-container">
+            <div class="progress-label">HTML&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70%</div>
+            <div class="progress-bar" id="htmlProgressBar"></div> </div>
+            <div class="progress-container">
+                <div class="progress-label">CSS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50%</div>
+          <div class="progress-bar" id="cssProgressBar"></div></div>
+          <div class="progress-container">
+            <div class="progress-label">JS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50%</div>
+            <div class="progress-bar" id="jsProgressBar"></div></div>
+              <div class="progress-container">
+                <div class="progress-label">C & C++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80%</div>
+                <div class="progress-bar" id="cProgressBar"></div></div>
+            </div>    
+      
+    </section>
+
+    <hr class="thin-hr">
+    <section class="project" id="project">
+        
+        <div class="projects">
+            <h1>My <span style="color: cyan;">Projects</span></h1>
+        </div>
+        <div class="container">
+            <div class="im">
+                <a href="https://github.com/SayanKaran/FoodyLand.git"><img src="p1.png" alt="project1"></a>
+            </div>
+            <div class="para"><a href="https://github.com/SayanKaran/FoodyLand.git" style="text-decoration: none;color: rgb(49, 49, 49);font-weight: 600;">Food Delivery Website</a><br><br>Website Link:<a href="https://comfortable-fawn-sweatsuit.cyclic.app/" style="text-decoration: none; color: rgb(49, 49, 49);font-weight: 600;"> &nbsp; Foodyland</a></div>
+        </div>
+        <div class="container">
+            <div class="im">
+                <a href="https://github.com/SayanKaran/Sorting_Visualiser.git"><img src="p2.jpeg" alt="project2"></a>
+            </div>
+            <div class="para"><a href="https://github.com/SayanKaran/Sorting_Visualiser.git" style="text-decoration: none;color: rgb(49, 49, 49);font-weight: 600;">Sorting Visualizer</a></div>
+        </div>
+    </section>
+
+    <hr class="thin-hr">
+    <section class="contact" id="contact">
+        <div class="contact1">
+            <h1 style="font-size: 46px;">Contact <span style="color: cyan;">Me</span></h1>
+        </div>
+        <div class="container1">
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <button id="btn" onclick="submited(e)">Contact</button>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/karan.sayan.509" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/your_entertainer__sayan/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sayan-karan-834997264/"><i class="fab fa-linkedin-in"target="_blank"></i></a>
+                </div>
+                <div class="social-links1">
+                    <i class="fas fa-envelope"><span style="color: white;margin-left: 10px;">sayankaran10@gmail.com</span></i>
+                </div>
+            </form>
+        </div>
+    </section>
+<section>
+    <div class="footer">
+        <p>&copy; 2023 MyPortfolio. All rights reserved.</p>
+      </div>
+</section>
+<script>
+    function sidebar(){
+        let opening=document.querySelector('.sidebar');
+        opening.style.transition="all 1s";
+        opening.style.display="flex";
+        
+    }
+    function closing(){
+        let closing=document.querySelector('.sidebar');
+        closing.style.display="none";
+    }
+    function submited(e){
+        e.preventDefault();
+        let email=document.getElementById('email');
+        let name=document.getElementById('name');
+        let message=document.getElementById('message');
+        
+        if(email!="" && name!="" && message!=""){
+            window.location.href='index.html';
+        }else{
+            alert("Please Fillup the Form first.")
+        }
+        
+    }
+</script>
+    <script src="app.js"></script>
+</body>
+</html>
